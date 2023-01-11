@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: $color-font;
+    padding: 37px 142px;
+
+
+    &__sign {
+        padding: 9px 10px;
+        margin-left:10px;
+        font-size: 14px;
+        line-height: 79px;
+        color: $color-sign;
+    }
+
+    #signup {
+        border: 1px solid $color-border;
+    }
+
+    &__menu {
+        padding: 9px 20px;
+        margin-left:10px;
+        font-size: 18px;
+        line-height: 24px;
+
+        &:hover {
+            border: 0.75px solid #3C3C3C;
+        }
+    }
+}

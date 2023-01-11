@@ -1,0 +1,18 @@
+@import './reset';
+@import 'settings/fonts';
+@import 'settings/colors';
+@import './navbar';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-base;
+    color: $color-font;
+
+    a {
+        text-decoration: none;
+        color: $color-font;
+    }
+}
