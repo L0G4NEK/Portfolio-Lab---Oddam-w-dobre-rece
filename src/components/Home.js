@@ -7,7 +7,10 @@ import HomeContact from "./HomeContact";
 
 const Home = () => {
     return ( 
-        <h1>a</h1>
+        <div>
+            <HomeHeader />
+            <HomeThreeColumns />
+        </div>
      );
 }
  

@@ -1,0 +1,42 @@
+.homeHeader {
+    display: flex;
+    justify-content: flex-end;
+
+    &__hero {
+        height: 100vh;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: -390px;
+    }
+
+    &__text {
+        margin:120px 200px 120px 0;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-size: 38px;
+            line-height: 55px;
+            text-align: center;
+        }
+
+        img {
+            margin: 25px auto 65px;
+        }
+       
+
+        a {
+            display: inline-block;
+            width: 310px;
+            font-size: 36px;
+            padding: 13px 50px;
+            border: 0.75px solid $color-font;
+            text-align: center;
+        }
+    } 
+    &__btns {
+        display: flex;            
+        justify-content: space-around;
+    }
+}

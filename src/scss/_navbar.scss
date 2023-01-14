@@ -12,10 +12,10 @@
         font-size: 14px;
         line-height: 79px;
         color: $color-sign;
-    }
 
-    #signup {
-        border: 1px solid $color-border;
+        &:hover {
+            border: 0.75px solid $color-border;
+        }
     }
 
     &__menu {
@@ -25,7 +25,7 @@
         line-height: 24px;
 
         &:hover {
-            border: 0.75px solid #3C3C3C;
+            border: 0.75px solid $color-font;
         }
     }
 }
