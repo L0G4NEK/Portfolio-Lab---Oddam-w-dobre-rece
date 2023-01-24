@@ -12,6 +12,7 @@ const Home = () => {
             <HomeThreeColumns />
             <HomeSimpleSteps />
             <HomeAboutUs />
+            <HomeWhoWeHelp />
         </div>
      );
 }

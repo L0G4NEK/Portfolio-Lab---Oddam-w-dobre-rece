@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "firebase": "^9.16.0",
+    "firebase-admin": "^11.5.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "node-sass": "^7.0.3",
@@ -22,7 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject", 
+    "eject": "react-scripts eject",
     "build:css": "tailwind build -i ./src/scss/input.css -o ./src/scss/output.css"
   },
   "eslintConfig": {
